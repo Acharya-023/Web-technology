@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::after{
+            content:" to you";
+            background-color: brown;
+            color: white;
+        }
+        h1::before{
+            content:"Happy";
+        }
+        h1::first-letter{
+            color: coral;
+        }
+        h1::first-line{
+            background-color: bisque;
+        }
+        li::marker{
+            content: "*";
+            color: blueviolet;
+        }
+        li{
+            color: cornflowerblue;
+        }
+        li::selection{
+            background-color: darkgreen;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>birthday</h1>
+    <li>May</li>
+    <li>god</li>
+    <li>bless</li>
+    <li>you</li>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.navbar{
+    
+    height: 75px;
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.blockbar{
+    width: 300px;
+    height: 75px;
+    border: 3px solid red;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
